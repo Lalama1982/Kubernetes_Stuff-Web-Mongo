@@ -19,3 +19,6 @@ kubectl get node
 kubectl get all
 kubectl get secret
 kubectl get configmap
+kubectl get pod
+kubectl get service
+kubectl get deployment
