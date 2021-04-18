@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+    name: mongodb-service
+spec:
+    selector:
+      app: mongodb # refers to the pod label "mongodb" defined under metadata
+    ports:
+      - protocol: TCP
+        port: 27017 # port in which srvice will be called
+        targetPort: 27017 # should match to "containerPort" of the pod

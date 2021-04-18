@@ -1,0 +1,12 @@
+kubectl apply -f 01-mongo-secret.yaml
+kubectl apply -f 02-mongo-deployment.yaml
+kubectl apply -f 03-mongo-service.yaml
+kubectl apply -f 04-mongo-configmap.yaml
+kubectl apply -f 05-mongo-express.yaml
+kubectl apply -f 06-mongo-express-service.yaml
+minikube service mongo-express-service
+
+kubectl get node
+kubectl get all
+kubectl get secret
+kubectl get configmap
