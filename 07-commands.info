@@ -22,3 +22,5 @@ kubectl get configmap
 kubectl get pod
 kubectl get service
 kubectl get deployment
+
+"github" repo : Kubernetes_Stuff-Web-Mongo
